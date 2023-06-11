@@ -16,7 +16,7 @@ pipeline {
 
         stage('Fetch Code') {
             steps {
-                git branch: 'paac', url: 'https://github.com/devopshydclub/vprofile-project.git'
+                git branch: 'master', url: 'https://github.com/abdelrhmanaf/Jenkins-CI.git'
             }
         }
         stage('BUILD'){
